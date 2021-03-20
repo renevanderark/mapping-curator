@@ -79,7 +79,11 @@ export default function(dispatch : Dispatch<MappingsEditorAction>, getState : ()
                 "Accept": "application/json",
                 "Content-type": "application/json"
             },
-            body: JSON.stringify(fieldMapping)
+            body: JSON.stringify({
+                id: fieldMapping.id,
+                xpath: fieldMapping.xpath,
+                fieldId: fieldMapping.fieldId
+            })
         }, (err, resp, body) => {
 
             if (!err && resp.statusCode >= 200 && resp.statusCode < 300) {

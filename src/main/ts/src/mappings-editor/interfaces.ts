@@ -13,6 +13,7 @@ export interface FieldMapping {
     id : number
     fieldId : number
     xpath : string
+    validationError : string
 }
 
 export interface TargetField {

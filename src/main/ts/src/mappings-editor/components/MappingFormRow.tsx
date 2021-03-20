@@ -13,7 +13,7 @@ interface MappingFormRowProps {
 
 const MappingFormRow : React.FunctionComponent<MappingFormRowProps> = ({fieldMapping, targetFields, deleteMapping, updateMapping}) => (
     <div>
-        <XpathInputField fieldValue={fieldMapping.xpath} 
+        <XpathInputField fieldValue={fieldMapping.xpath} validationError={fieldMapping.validationError}
             onChange={(xpath) => updateMapping({...fieldMapping, xpath: xpath})} />
         
         <TargetFieldSelect value={fieldMapping.fieldId} 
@@ -21,6 +21,7 @@ const MappingFormRow : React.FunctionComponent<MappingFormRowProps> = ({fieldMap
             onChange={(fieldId) => updateMapping({...fieldMapping, fieldId: fieldId})}
         />
         <button onClick={() => deleteMapping(fieldMapping.id)}>Verwijderen</button>
+        <span style={{color: "red"}}>{fieldMapping.validationError}</span>
     </div>
 )
 
