@@ -1,6 +1,7 @@
 import * as React from 'react';
 import { FieldMapping, TargetField } from "../interfaces";
 import TargetFieldSelect from './TargetFieldSelect';
+import XpathInputField from './XpathInputField';
 
 interface MappingFormRowProps {
     fieldMapping : FieldMapping
@@ -12,10 +13,13 @@ interface MappingFormRowProps {
 
 const MappingFormRow : React.FunctionComponent<MappingFormRowProps> = ({fieldMapping, targetFields, deleteMapping, updateMapping}) => (
     <div>
-        <input type="text" placeholder="xpath..." value={fieldMapping.xpath} onChange={(ev) => console.log(`TODO: update xpath to ${ev.target.value}`)} />
+        <XpathInputField fieldValue={fieldMapping.xpath} 
+            onChange={(xpath) => updateMapping({...fieldMapping, xpath: xpath})} />
+        
         <TargetFieldSelect value={fieldMapping.fieldId} 
             targetFields={targetFields} 
-            onChange={(fieldId) => updateMapping({...fieldMapping, fieldId: fieldId})} />
+            onChange={(fieldId) => updateMapping({...fieldMapping, fieldId: fieldId})}
+        />
         <button onClick={() => deleteMapping(fieldMapping.id)}>Verwijderen</button>
     </div>
 )
