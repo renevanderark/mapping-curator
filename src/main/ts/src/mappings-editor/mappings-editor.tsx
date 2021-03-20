@@ -19,4 +19,5 @@ export function initializeMappingsEditor(store : Store ) {
 
     fetchTargetFields();
     fetchMappings();
+    applyMappings();
 }

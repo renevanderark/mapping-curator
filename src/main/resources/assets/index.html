@@ -56,15 +56,61 @@
 
         html, body {
             height: 100%;
+            font-family: FFDINRoundWebProRegular,Helvetica,Arial,sans-serif
         }
         #xml-sample {
-            height: calc(100% - 250px);
+            height: calc(100% - 450px);
             overflow-y: auto;
+            font-family: monospace;
+            padding: 0.5em;
+            margin: 0.5em;
+            border: 1px solid #aaa;
+            border-radius: 4px;
+        }
+        #mappings-editor {
+            padding: 0.5em;
+        }
+        input {
+            font-family: monospace;
+        }
+
+        table {
+            margin-left: 0.5em;
+            width: 100%;
+        }
+        h2 {
+            font-weight: bold;
+            font-size: 1.4em;
+            padding: 0.2em;
+        }
+        th {
+            text-align: left;
+            font-weight: bold;
+        }
+        th, td {
+            font-size: 0.9em;
+            padding: 0 0.5em;
+            min-width: 200px;
+        }
+        tr:nth-child(even) {
+            background-color: aquamarine;
+        }
+        thead >tr {
+            background-color: aqua;
+        }
+        h1 {
+            font-weight: bold;
+            font-size: 2em;
+            color: goldenrod;
+            background-color: lightgoldenrodyellow;
         }
     </style>
 </head>
 <body>
+<h1>KB Mapping curator tool</h1>
+<h2>Bron XML</h2>
 <pre id="xml-sample"></pre>
+<h2>Mappings bewerken</h2>
 <div id="mappings-editor"></div>
 
 <script src="/assets/js/react.production.min.js"></script>

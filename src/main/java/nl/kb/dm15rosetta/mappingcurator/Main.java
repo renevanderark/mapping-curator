@@ -38,9 +38,11 @@ public class Main extends Application<Config> {
             hdl.update("CREATE TABLE IF NOT EXISTS xpath_to_fields (id INT PRIMARY KEY AUTO_INCREMENT, xpath VARCHAR(4096), field_id INT)");
             hdl.update("CREATE TABLE IF NOT EXISTS fields (id INT PRIMARY KEY AUTO_INCREMENT, name VARCHAR(255))");
             hdl.update("INSERT INTO fields (name) VALUES ('maintitle')");
-            hdl.update("INSERT INTO fields (name) VALUES ('subtitle')");
             hdl.update("INSERT INTO fields (name) VALUES ('author')");
+            hdl.update("INSERT INTO fields (name) VALUES ('host-title')");
             hdl.update("INSERT INTO fields (name) VALUES ('metadata-grant')");
+            hdl.update("INSERT INTO fields (name) VALUES ('nbn')");
+            hdl.update("INSERT INTO fields (name) VALUES ('issn')");
         }
 
         final MappingDao mappingDao = db.onDemand(MappingDao.class);
