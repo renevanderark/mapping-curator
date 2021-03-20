@@ -1,0 +1,32 @@
+server:
+  applicationConnectors:
+    - type: http
+      port: 18080
+  adminConnectors:
+    - type: http
+      port: 18081
+  requestLog:
+    appenders:
+      - type: console
+
+logging:
+  appenders:
+    - type: console
+      logFormat: "- %-5p  %m [%c{60}]%n"
+  level: INFO
+
+
+# Database settings.
+database:
+  # the name of your JDBC driver
+  driverClass: org.h2.Driver
+
+  # the username
+  user: mapping
+
+  # the password
+  password: curator
+
+  # the JDBC URL 127.0.0.1:3306
+  url: jdbc:h2:mem:mappings
+
