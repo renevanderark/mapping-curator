@@ -9,13 +9,13 @@ export interface MappingsEditorAction extends Action<MappingsEditorActionTypes> 
     payload : Array<FieldMapping> | Array<TargetField>
 }
 
-interface FieldMapping {
+export interface FieldMapping {
     id : number
     fieldId : number
     xpath : string
 }
 
-interface TargetField {
+export interface TargetField {
     id : number
     name : string
 }
