@@ -8,11 +8,11 @@ import MappingsEditor from "./components/MappingsEditor";
 
 export function initializeMappingsEditor(store : Store ) {
 
-    const { addMapping, fetchTargetFields, fetchMappings } = mkActions(store.dispatch, store.getState);
+    const { addMapping, deleteMapping, updateMapping, fetchTargetFields, fetchMappings } = mkActions(store.dispatch, store.getState);
 
     ReactDOM.render((
         <Provider store={store}>
-            <MappingsEditor addMapping={addMapping} />
+            <MappingsEditor addMapping={addMapping} deleteMapping={deleteMapping} updateMapping={updateMapping} />
         </Provider>
     ), document.getElementById("mappings-editor"))
 

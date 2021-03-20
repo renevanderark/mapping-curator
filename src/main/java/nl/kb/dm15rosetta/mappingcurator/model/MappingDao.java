@@ -17,7 +17,12 @@ public interface MappingDao {
     @SqlQuery("SELECT * FROM xpath_to_fields")
     List<XpathMapping> fetchMappings();
 
-
     @SqlUpdate("INSERT INTO xpath_to_fields (field_id, xpath) values (:fieldId, '')")
     void createMappingRow(@BindBean XpathMapping xpathMapping);
+
+    @SqlUpdate("DELETE FROM xpath_to_fields WHERE id = :id")
+    void deleteMappingRow(@BindBean XpathMapping xpathMapping);
+
+    @SqlUpdate("UPDATE xpath_to_fields SET field_id = :fieldId, xpath = :xpath WHERE id = :id")
+    void updateMappingRow(@BindBean XpathMapping xpathMapping);
 }

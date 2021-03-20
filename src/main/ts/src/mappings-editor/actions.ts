@@ -1,7 +1,7 @@
 import xhr from "xhr";
 import { Dispatch } from "redux";
 import { AppState } from "..";
-import { MappingsEditorAction, MappingsEditorActionTypes } from "./interfaces";
+import { FieldMapping, MappingsEditorAction, MappingsEditorActionTypes } from "./interfaces";
 
 
 export default function(dispatch : Dispatch<MappingsEditorAction>, getState : () => AppState)  {
@@ -51,9 +51,48 @@ export default function(dispatch : Dispatch<MappingsEditorAction>, getState : ()
                 fetchMappings();
             }
         });
+
+    const deleteMapping = (id : number) =>
+        xhr({
+            method: "DELETE",
+            url: `/mappings/mappings`,
+            headers: {
+                "Accept": "application/json",
+                "Content-type": "application/json"
+            },
+            body: JSON.stringify({
+                id: id
+            })
+        }, (err, resp, body) => {
+
+            if (!err && resp.statusCode >= 200 && resp.statusCode < 300) {
+                console.log(body);
+                fetchMappings();
+            }
+        });
+    
+    const updateMapping = (fieldMapping : FieldMapping) => 
+        xhr({
+            method: "PUT",
+            url: `/mappings/mappings`,
+            headers: {
+                "Accept": "application/json",
+                "Content-type": "application/json"
+            },
+            body: JSON.stringify(fieldMapping)
+        }, (err, resp, body) => {
+
+            if (!err && resp.statusCode >= 200 && resp.statusCode < 300) {
+                console.log(body);
+                fetchMappings();
+            }
+        });
+
     return {
         fetchTargetFields: fetchTargetFields,
         fetchMappings: fetchMappings,
-        addMapping: addMapping
+        addMapping: addMapping,
+        deleteMapping: deleteMapping,
+        updateMapping: updateMapping
     }
 }
