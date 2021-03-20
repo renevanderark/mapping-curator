@@ -91,12 +91,29 @@ export default function(dispatch : Dispatch<MappingsEditorAction>, getState : ()
                 fetchMappings();
             }
         });
+    
+    const applyMappings = () =>
+        xhr({
+            method: "GET",
+            url: `/mappings/apply`,
+            headers: {
+                "Accept": "application/json",
+                "Content-type": "application/json"
+            }
+        }, (err, resp, body) => {
+
+            if (!err && resp.statusCode >= 200 && resp.statusCode < 300) {
+                console.log(body);
+                fetchMappings();
+            }
+        });
 
     return {
         fetchTargetFields: fetchTargetFields,
         fetchMappings: fetchMappings,
         addMapping: addMapping,
         deleteMapping: deleteMapping,
-        updateMapping: updateMapping
+        updateMapping: updateMapping,
+        applyMappings: applyMappings
     }
 }

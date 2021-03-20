@@ -1,5 +1,6 @@
 package nl.kb.dm15rosetta.mappingcurator.model;
 
+import org.skife.jdbi.v2.sqlobject.Bind;
 import org.skife.jdbi.v2.sqlobject.BindBean;
 import org.skife.jdbi.v2.sqlobject.SqlQuery;
 import org.skife.jdbi.v2.sqlobject.SqlUpdate;
@@ -25,4 +26,8 @@ public interface MappingDao {
 
     @SqlUpdate("UPDATE xpath_to_fields SET field_id = :fieldId, xpath = :xpath WHERE id = :id")
     void updateMappingRow(@BindBean XpathMapping xpathMapping);
+
+    @RegisterMapper(TargetFieldMapper.class)
+    @SqlQuery("SELECT * FROM fields where id = :id")
+    TargetField getTargetField(@Bind("id") Integer fieldId);
 }

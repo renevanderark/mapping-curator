@@ -45,6 +45,6 @@ public class Main extends Application<Config> {
 
         final MappingDao mappingDao = db.onDemand(MappingDao.class);
 
-        environment.jersey().register(new MappingResource(mappingDao));
+        environment.jersey().register(new MappingResource(mappingDao, new XmlSampleRunner()));
     }
 }

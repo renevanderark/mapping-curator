@@ -1,5 +1,6 @@
 package nl.kb.dm15rosetta.mappingcurator.resources;
 
+import nl.kb.dm15rosetta.mappingcurator.XmlSampleRunner;
 import nl.kb.dm15rosetta.mappingcurator.model.MappingDao;
 import nl.kb.dm15rosetta.mappingcurator.model.XpathMapping;
 
@@ -15,9 +16,11 @@ import javax.ws.rs.core.Response;
 @Path("/mappings")
 public class MappingResource {
     private MappingDao mappingDao;
+    private XmlSampleRunner xmlSampleRunner;
 
-    public MappingResource(MappingDao mappingDao) {
+    public MappingResource(MappingDao mappingDao, XmlSampleRunner xmlSampleRunner) {
         this.mappingDao = mappingDao;
+        this.xmlSampleRunner = xmlSampleRunner;
     }
 
     @GET
@@ -67,4 +70,10 @@ public class MappingResource {
         return Response.ok(xpathMapping).build();
     }
 
+    @GET
+    @Path("/apply")
+    @Produces("application/json")
+    public Response applyMappingsToSample() {
+        return Response.ok(xmlSampleRunner.runMappingsOnSample(mappingDao)).build();
+    }
 }
