@@ -1,13 +1,14 @@
 package nl.kb.dm15rosetta.mappingcurator.model;
 
 import net.sf.saxon.xpath.XPathFactoryImpl;
+import nl.kb.dm15rosetta.mappingcurator.util.NamespaceMap;
+import nl.kb.dm15rosetta.mappingcurator.util.XpathUtil;
 
 import javax.xml.xpath.XPath;
 import javax.xml.xpath.XPathExpressionException;
 
 public class XpathMapping {
-    private static final XPathFactoryImpl xPathFactory = new XPathFactoryImpl();
-    private static final XPath xPath = xPathFactory.newXPath();
+    private static final XPath xPath = XpathUtil.newXPath(NamespaceMap.getKnownNamespaces());
 
     private Integer id;
     private Integer fieldId;

@@ -1,0 +1,952 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:kbmd="http://schemas.kb.nl/kbmd/v1" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:premis="info:lc/xmlns/premis-v2" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" OBJID="1614851463168" TYPE="AIP">
+  <mets:metsHdr CREATEDATE="2021-03-04T10:03:11.240+01:00" LASTMODDATE="2021-03-04T11:02:36.977+01:00">
+    <mets:agent ROLE="CREATOR" TYPE="ORGANIZATION">
+      <mets:name>Koninklijke Bibliotheek, National Library of the Netherlands</mets:name>
+    </mets:agent>
+    <mets:metsDocumentID TYPE="ID">IP1614851463424</mets:metsDocumentID>
+  </mets:metsHdr>
+  <mets:dmdSec ID="DMDIP1614851463424-001">
+    <mets:mdWrap MDTYPE="MODS" MDTYPEVERSION="3.4">
+      <mets:xmlData>
+        <mods:mods>
+          <mods:titleInfo>
+            <mods:title>Shape memory polymer ovarian vein embolisation in a patient with nickel allergy</mods:title>
+          </mods:titleInfo>
+          <mods:name>
+            <mods:namePart>Castellano, Davide</mods:namePart>
+          </mods:name>
+          <mods:name>
+            <mods:namePart>Boghi, Andrea</mods:namePart>
+          </mods:name>
+          <mods:name>
+            <mods:namePart>Di Maggio, Luca</mods:namePart>
+          </mods:name>
+          <mods:name>
+            <mods:namePart>Rapellino, Alessandro</mods:namePart>
+          </mods:name>
+          <mods:name>
+            <mods:namePart>Savio, Daniele</mods:namePart>
+          </mods:name>
+          <mods:typeOfResource>text</mods:typeOfResource>
+          <mods:genre authority="marcgt">article</mods:genre>
+          <mods:originInfo>
+            <mods:issuance>monographic</mods:issuance>
+            <mods:copyrightDate>2021</mods:copyrightDate>
+          </mods:originInfo>
+          <mods:relatedItem type="host">
+            <mods:titleInfo>
+              <mods:title>CVIR endovascular</mods:title>
+            </mods:titleInfo>
+            <mods:originInfo>
+              <mods:issuance>continuing</mods:issuance>
+            </mods:originInfo>
+            <mods:identifier type="issn">25208934</mods:identifier>
+            <mods:identifier type="nbn">0000000223111</mods:identifier>
+            <mods:part>
+              <mods:detail type="volume">
+                <mods:number>4</mods:number>
+              </mods:detail>
+              <mods:detail type="issue">
+                <mods:number>1</mods:number>
+              </mods:detail>
+            </mods:part>
+          </mods:relatedItem>
+          <mods:relatedItem type="host">
+            <mods:typeOfResource collection="yes">text</mods:typeOfResource>
+            <mods:titleInfo>
+              <mods:title>Born digital tijdschriften</mods:title>
+            </mods:titleInfo>
+            <mods:note>KB collectiekavel</mods:note>
+          </mods:relatedItem>
+          <mods:relatedItem type="host">
+            <mods:typeOfResource collection="yes">text</mods:typeOfResource>
+            <mods:titleInfo>
+              <mods:title>Elektronische Wetenschappelijke Tijdschriften</mods:title>
+            </mods:titleInfo>
+            <mods:identifier type="local">EWTIJ</mods:identifier>
+          </mods:relatedItem>
+          <mods:identifier type="doi">10.1186/s42155-021-00212-y</mods:identifier>
+          <mods:identifier type="nbn">urn:nbn:nl:kb-1614851463168</mods:identifier>
+          <mods:recordInfo>
+            <mods:recordOrigin>Automatisch gegenereerd op basis van de EWTIJ XML in release 1.5 van het digitaal magazijn.</mods:recordOrigin>
+          </mods:recordInfo>
+        </mods:mods>
+      </mets:xmlData>
+    </mets:mdWrap>
+  </mets:dmdSec>
+  <mets:dmdSec ID="DMDIP1614851463424-002">
+    <mets:mdWrap MDTYPE="OTHER" OTHERMDTYPE="SUPPLIED-METADATA">
+      <mets:xmlData>
+        <!--<!DOCTYPE article   SYSTEM "http://jats.nlm.nih.gov/archiving/1.2/JATS-archivearticle1.dtd">-->
+        <article xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="research-article" dtd-version="1.2" xml:lang="en">
+          <?properties open_access?>
+          <front>
+            <journal-meta>
+              <journal-id journal-id-type="publisher-id">42155</journal-id>
+              <journal-title-group>
+                <journal-title>CVIR Endovascular</journal-title>
+                <abbrev-journal-title abbrev-type="publisher">CVIR Endovasc</abbrev-journal-title>
+              </journal-title-group>
+              <issn pub-type="epub">2520-8934</issn>
+              <publisher>
+                <publisher-name>Springer International Publishing</publisher-name>
+                <publisher-loc>Cham</publisher-loc>
+              </publisher>
+            </journal-meta>
+            <article-meta>
+              <article-id pub-id-type="publisher-id">s42155-021-00212-y</article-id>
+              <article-id pub-id-type="manuscript">212</article-id>
+              <article-id pub-id-type="doi">10.1186/s42155-021-00212-y</article-id>
+              <article-categories>
+                <subj-group subj-group-type="heading">
+                  <subject>Case Report</subject>
+                </subj-group>
+              </article-categories>
+              <title-group>
+                <article-title xml:lang="en">Shape memory polymer ovarian vein embolisation in a patient with nickel allergy</article-title>
+              </title-group>
+              <contrib-group>
+                <contrib contrib-type="author" corresp="yes" id="Au1">
+                  <contrib-id contrib-id-type="orcid">http://orcid.org/0000-0003-0785-3252</contrib-id>
+                  <name>
+                    <surname>Castellano</surname>
+                    <given-names>Davide</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="Aff1">1</xref>
+                  <xref ref-type="corresp" rid="IDs4215502100212y_cor1">a</xref>
+                </contrib>
+                <contrib contrib-type="author" id="Au2">
+                  <name>
+                    <surname>Boghi</surname>
+                    <given-names>Andrea</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="Aff1">1</xref>
+                </contrib>
+                <contrib contrib-type="author" id="Au3">
+                  <name>
+                    <surname>Di Maggio</surname>
+                    <given-names>Luca</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="Aff1">1</xref>
+                </contrib>
+                <contrib contrib-type="author" id="Au4">
+                  <name>
+                    <surname>Rapellino</surname>
+                    <given-names>Alessandro</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="Aff1">1</xref>
+                </contrib>
+                <contrib contrib-type="author" id="Au5">
+                  <name>
+                    <surname>Savio</surname>
+                    <given-names>Daniele</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="Aff1">1</xref>
+                </contrib>
+                <aff id="Aff1">
+                  <label>1</label>
+                  <institution-wrap>
+                    <institution-id institution-id-type="GRID">grid.415044.0</institution-id>
+                    <institution-id institution-id-type="ISNI">0000 0004 1760 7116</institution-id>
+                    <institution content-type="org-division">Department of Interventional Radiology and Neuroradiology</institution>
+                    <institution content-type="org-name">San Giovanni Bosco Hospital</institution>
+                  </institution-wrap>
+                  <addr-line content-type="street">Piazza del Donatore di Sangue, 3</addr-line>
+                  <addr-line content-type="postcode">10154</addr-line>
+                  <addr-line content-type="city">Turin</addr-line>
+                  <country country="IT">Italy</country>
+                </aff>
+              </contrib-group>
+              <author-notes>
+                <corresp id="IDs4215502100212y_cor1">
+                  <label>a</label>
+                  <email>gufosag@gmail.com</email>
+                </corresp>
+              </author-notes>
+              <pub-date date-type="pub" publication-format="electronic">
+                <day>2</day>
+                <month>3</month>
+                <year>2021</year>
+              </pub-date>
+              <pub-date date-type="collection" publication-format="electronic">
+                <month>12</month>
+                <year>2021</year>
+              </pub-date>
+              <volume>4</volume>
+              <issue seq="25">1</issue>
+              <elocation-id>25</elocation-id>
+              <history>
+                <date date-type="registration">
+                  <day>17</day>
+                  <month>2</month>
+                  <year>2021</year>
+                </date>
+                <date date-type="received">
+                  <day>7</day>
+                  <month>1</month>
+                  <year>2021</year>
+                </date>
+                <date date-type="accepted">
+                  <day>16</day>
+                  <month>2</month>
+                  <year>2021</year>
+                </date>
+                <date date-type="online">
+                  <day>2</day>
+                  <month>3</month>
+                  <year>2021</year>
+                </date>
+              </history>
+              <permissions>
+                <copyright-statement>© The Author(s) 2021</copyright-statement>
+                <copyright-year>2021</copyright-year>
+                <license license-type="open-access" xlink:href="http://creativecommons.org/licenses/by/4.0/">
+                  <license-p>
+                    <bold>Open Access</bold>This article is licensed under a Creative Commons Attribution 4.0 International License, which permits use, sharing, adaptation, distribution and reproduction in any medium or format, as long as you give appropriate credit to the original author(s) and the source, provide a link to the Creative Commons licence, and indicate if changes were made. The images or other third party material in this article are included in the article&apos;s Creative Commons licence, unless indicated otherwise in a credit line to the material. If material is not included in the article&apos;s Creative Commons licence and your intended use is not permitted by statutory regulation or exceeds the permitted use, you will need to obtain permission directly from the copyright holder. To view a copy of this licence, visit <ext-link ext-link-type="url" xlink:href="http://creativecommons.org/licenses/by/4.0/">http://creativecommons.org/licenses/by/4.0/</ext-link>.</license-p>
+                </license>
+              </permissions>
+              <abstract id="Abs1" xml:lang="en">
+                <title>Abstract</title>
+                <sec id="ASec1">
+                  <title>Background</title>
+                  <p id="Par1">Ovarian vein embolization in pelvic varicocele is usually obtained using nitinol coils. These devices can not be used in patients with proven nickel allergy.</p>
+                </sec>
+                <sec id="ASec2">
+                  <title>Case presentation</title>
+                  <p id="Par2">Shape memory polymer is a new embolic material available to interventionalists. A patient presented with pelvic congestion syndrome requiring embolisation of the left ovarian vein. The target vessel consisted of two twisted branches, each 5–6 mm in diameter. The patient also had a known allergy to nickel. Considering the anatomy and allergy status, embolisation with polyurethane shape memory polymer vascular plugs was considered a good case strategy. The embolisation procedure was technically successful with the deployment of two shape memory polymer plugs into each of the two left ovarian vein branches. Follow-up magnetic resonance imaging at 4 months showed sustained occlusion of the treated vessels and the patient showed no signs of allergy to the implanted material.</p>
+                </sec>
+                <sec id="ASec3">
+                  <title>Conclusions</title>
+                  <p id="Par3">In conclusion, our case presented an opportunity to utilise a new embolic material and achieve a good outcome in a patient with an allergy that may have resulted in complications when using metallic implants.</p>
+                </sec>
+              </abstract>
+              <kwd-group xml:lang="en">
+                <title>Keywords</title>
+                <kwd>Shape memory polymer</kwd>
+                <kwd>Vascular plug</kwd>
+                <kwd>Peripheral embolisation</kwd>
+                <kwd>Pelvic congestion syndrome</kwd>
+                <kwd>Nickel allergy</kwd>
+              </kwd-group>
+              <custom-meta-group>
+                <custom-meta>
+                  <meta-name>publisher-imprint-name</meta-name>
+                  <meta-value>Springer</meta-value>
+                </custom-meta>
+                <custom-meta>
+                  <meta-name>volume-issue-count</meta-name>
+                  <meta-value>1</meta-value>
+                </custom-meta>
+                <custom-meta>
+                  <meta-name>issue-article-count</meta-name>
+                  <meta-value>25</meta-value>
+                </custom-meta>
+                <custom-meta>
+                  <meta-name>issue-toc-levels</meta-name>
+                  <meta-value>0</meta-value>
+                </custom-meta>
+                <custom-meta>
+                  <meta-name>issue-pricelist-year</meta-name>
+                  <meta-value>2021</meta-value>
+                </custom-meta>
+                <custom-meta>
+                  <meta-name>issue-copyright-holder</meta-name>
+                  <meta-value>The Author(s)</meta-value>
+                </custom-meta>
+                <custom-meta>
+                  <meta-name>issue-copyright-year</meta-name>
+                  <meta-value>2021</meta-value>
+                </custom-meta>
+                <custom-meta>
+                  <meta-name>article-contains-esm</meta-name>
+                  <meta-value>No</meta-value>
+                </custom-meta>
+                <custom-meta>
+                  <meta-name>article-numbering-style</meta-name>
+                  <meta-value>Unnumbered</meta-value>
+                </custom-meta>
+                <custom-meta>
+                  <meta-name>article-registration-date-year</meta-name>
+                  <meta-value>2021</meta-value>
+                </custom-meta>
+                <custom-meta>
+                  <meta-name>article-registration-date-month</meta-name>
+                  <meta-value>2</meta-value>
+                </custom-meta>
+                <custom-meta>
+                  <meta-name>article-registration-date-day</meta-name>
+                  <meta-value>17</meta-value>
+                </custom-meta>
+                <custom-meta>
+                  <meta-name>article-toc-levels</meta-name>
+                  <meta-value>0</meta-value>
+                </custom-meta>
+                <custom-meta>
+                  <meta-name>toc-levels</meta-name>
+                  <meta-value>0</meta-value>
+                </custom-meta>
+                <custom-meta>
+                  <meta-name>volume-type</meta-name>
+                  <meta-value>Regular</meta-value>
+                </custom-meta>
+                <custom-meta>
+                  <meta-name>journal-product</meta-name>
+                  <meta-value>ArchiveJournal</meta-value>
+                </custom-meta>
+                <custom-meta>
+                  <meta-name>numbering-style</meta-name>
+                  <meta-value>Unnumbered</meta-value>
+                </custom-meta>
+                <custom-meta>
+                  <meta-name>article-grants-type</meta-name>
+                  <meta-value>OpenChoice</meta-value>
+                </custom-meta>
+                <custom-meta>
+                  <meta-name>metadata-grant</meta-name>
+                  <meta-value>OpenAccess</meta-value>
+                </custom-meta>
+                <custom-meta>
+                  <meta-name>abstract-grant</meta-name>
+                  <meta-value>OpenAccess</meta-value>
+                </custom-meta>
+                <custom-meta>
+                  <meta-name>bodypdf-grant</meta-name>
+                  <meta-value>OpenAccess</meta-value>
+                </custom-meta>
+                <custom-meta>
+                  <meta-name>bodyhtml-grant</meta-name>
+                  <meta-value>OpenAccess</meta-value>
+                </custom-meta>
+                <custom-meta>
+                  <meta-name>bibliography-grant</meta-name>
+                  <meta-value>OpenAccess</meta-value>
+                </custom-meta>
+                <custom-meta>
+                  <meta-name>esm-grant</meta-name>
+                  <meta-value>OpenAccess</meta-value>
+                </custom-meta>
+                <custom-meta>
+                  <meta-name>online-first</meta-name>
+                  <meta-value>false</meta-value>
+                </custom-meta>
+                <custom-meta>
+                  <meta-name>pdf-file-reference</meta-name>
+                  <meta-value>BodyRef/PDF/42155_2021_Article_212.pdf</meta-value>
+                </custom-meta>
+                <custom-meta>
+                  <meta-name>pdf-type</meta-name>
+                  <meta-value>Typeset</meta-value>
+                </custom-meta>
+                <custom-meta>
+                  <meta-name>target-type</meta-name>
+                  <meta-value>OnlinePDF</meta-value>
+                </custom-meta>
+                <custom-meta>
+                  <meta-name>issue-type</meta-name>
+                  <meta-value>Regular</meta-value>
+                </custom-meta>
+                <custom-meta>
+                  <meta-name>article-type</meta-name>
+                  <meta-value>OriginalPaper</meta-value>
+                </custom-meta>
+                <custom-meta>
+                  <meta-name>journal-subject-primary</meta-name>
+                  <meta-value>Medicine &amp; Public Health</meta-value>
+                </custom-meta>
+                <custom-meta>
+                  <meta-name>journal-subject-secondary</meta-name>
+                  <meta-value>Medicine/Public Health, general</meta-value>
+                </custom-meta>
+                <custom-meta>
+                  <meta-name>journal-subject-secondary</meta-name>
+                  <meta-value>Imaging / Radiology</meta-value>
+                </custom-meta>
+                <custom-meta>
+                  <meta-name>journal-subject-secondary</meta-name>
+                  <meta-value>Interventional Radiology</meta-value>
+                </custom-meta>
+                <custom-meta>
+                  <meta-name>journal-subject-collection</meta-name>
+                  <meta-value>Medicine</meta-value>
+                </custom-meta>
+                <custom-meta>
+                  <meta-name>open-access</meta-name>
+                  <meta-value>true</meta-value>
+                </custom-meta>
+                <custom-meta>
+                  <meta-name>body</meta-name>
+                  <meta-value>absent</meta-value>
+                </custom-meta>
+              </custom-meta-group>
+            </article-meta>
+          </front>
+        </article>
+      </mets:xmlData>
+    </mets:mdWrap>
+  </mets:dmdSec>
+  <mets:dmdSec ID="DMDIP1614851463424-003">
+    <mets:mdWrap MDTYPE="OTHER" OTHERMDTYPE="SUPPLIED-METADATA-EDITED">
+      <mets:xmlData>
+        <!--<!DOCTYPE article   SYSTEM "http://jats.nlm.nih.gov/archiving/1.2/JATS-archivearticle1.dtd">-->
+        <article xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="research-article" dtd-version="1.2" xml:lang="en">
+          <?properties open_access?>
+          <front>
+            <journal-meta>
+              <journal-id journal-id-type="publisher-id">42155</journal-id>
+              <journal-title-group>
+                <journal-title>CVIR Endovascular</journal-title>
+                <abbrev-journal-title abbrev-type="publisher">CVIR Endovasc</abbrev-journal-title>
+              </journal-title-group>
+              <issn pub-type="epub">2520-8934</issn>
+              <publisher>
+                <publisher-name>Springer International Publishing</publisher-name>
+                <publisher-loc>Cham</publisher-loc>
+              </publisher>
+            </journal-meta>
+            <article-meta>
+              <article-id pub-id-type="publisher-id">s42155-021-00212-y</article-id>
+              <article-id pub-id-type="manuscript">212</article-id>
+              <article-id pub-id-type="doi">10.1186/s42155-021-00212-y</article-id>
+              <article-categories>
+                <subj-group subj-group-type="heading">
+                  <subject>Case Report</subject>
+                </subj-group>
+              </article-categories>
+              <title-group>
+                <article-title xml:lang="en">Shape memory polymer ovarian vein embolisation in a patient with nickel allergy</article-title>
+              </title-group>
+              <contrib-group>
+                <contrib contrib-type="author" corresp="yes" id="Au1">
+                  <contrib-id contrib-id-type="orcid">http://orcid.org/0000-0003-0785-3252</contrib-id>
+                  <name>
+                    <surname>Castellano</surname>
+                    <given-names>Davide</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="Aff1">1</xref>
+                  <xref ref-type="corresp" rid="IDs4215502100212y_cor1">a</xref>
+                </contrib>
+                <contrib contrib-type="author" id="Au2">
+                  <name>
+                    <surname>Boghi</surname>
+                    <given-names>Andrea</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="Aff1">1</xref>
+                </contrib>
+                <contrib contrib-type="author" id="Au3">
+                  <name>
+                    <surname>Di Maggio</surname>
+                    <given-names>Luca</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="Aff1">1</xref>
+                </contrib>
+                <contrib contrib-type="author" id="Au4">
+                  <name>
+                    <surname>Rapellino</surname>
+                    <given-names>Alessandro</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="Aff1">1</xref>
+                </contrib>
+                <contrib contrib-type="author" id="Au5">
+                  <name>
+                    <surname>Savio</surname>
+                    <given-names>Daniele</given-names>
+                  </name>
+                  <xref ref-type="aff" rid="Aff1">1</xref>
+                </contrib>
+                <aff id="Aff1">
+                  <label>1</label>
+                  <institution-wrap>
+                    <institution-id institution-id-type="GRID">grid.415044.0</institution-id>
+                    <institution-id institution-id-type="ISNI">0000 0004 1760 7116</institution-id>
+                    <institution content-type="org-division">Department of Interventional Radiology and Neuroradiology</institution>
+                    <institution content-type="org-name">San Giovanni Bosco Hospital</institution>
+                  </institution-wrap>
+                  <addr-line content-type="street">Piazza del Donatore di Sangue, 3</addr-line>
+                  <addr-line content-type="postcode">10154</addr-line>
+                  <addr-line content-type="city">Turin</addr-line>
+                  <country country="IT">Italy</country>
+                </aff>
+              </contrib-group>
+              <author-notes>
+                <corresp id="IDs4215502100212y_cor1">
+                  <label>a</label>
+                  <email>gufosag@gmail.com</email>
+                </corresp>
+              </author-notes>
+              <pub-date date-type="pub" publication-format="electronic">
+                <day>2</day>
+                <month>3</month>
+                <year>2021</year>
+              </pub-date>
+              <pub-date date-type="collection" publication-format="electronic">
+                <month>12</month>
+                <year>2021</year>
+              </pub-date>
+              <volume>4</volume>
+              <issue seq="25">1</issue>
+              <elocation-id>25</elocation-id>
+              <history>
+                <date date-type="registration">
+                  <day>17</day>
+                  <month>2</month>
+                  <year>2021</year>
+                </date>
+                <date date-type="received">
+                  <day>7</day>
+                  <month>1</month>
+                  <year>2021</year>
+                </date>
+                <date date-type="accepted">
+                  <day>16</day>
+                  <month>2</month>
+                  <year>2021</year>
+                </date>
+                <date date-type="online">
+                  <day>2</day>
+                  <month>3</month>
+                  <year>2021</year>
+                </date>
+              </history>
+              <permissions>
+                <copyright-statement>© The Author(s) 2021</copyright-statement>
+                <copyright-year>2021</copyright-year>
+                <license license-type="open-access" xlink:href="http://creativecommons.org/licenses/by/4.0/">
+                  <license-p>
+                    <bold>Open Access</bold>This article is licensed under a Creative Commons Attribution 4.0 International License, which permits use, sharing, adaptation, distribution and reproduction in any medium or format, as long as you give appropriate credit to the original author(s) and the source, provide a link to the Creative Commons licence, and indicate if changes were made. The images or other third party material in this article are included in the article&apos;s Creative Commons licence, unless indicated otherwise in a credit line to the material. If material is not included in the article&apos;s Creative Commons licence and your intended use is not permitted by statutory regulation or exceeds the permitted use, you will need to obtain permission directly from the copyright holder. To view a copy of this licence, visit <ext-link ext-link-type="url" xlink:href="http://creativecommons.org/licenses/by/4.0/">http://creativecommons.org/licenses/by/4.0/</ext-link>.</license-p>
+                </license>
+              </permissions>
+              <abstract id="Abs1" xml:lang="en">
+                <title>Abstract</title>
+                <sec id="ASec1">
+                  <title>Background</title>
+                  <p id="Par1">Ovarian vein embolization in pelvic varicocele is usually obtained using nitinol coils. These devices can not be used in patients with proven nickel allergy.</p>
+                </sec>
+                <sec id="ASec2">
+                  <title>Case presentation</title>
+                  <p id="Par2">Shape memory polymer is a new embolic material available to interventionalists. A patient presented with pelvic congestion syndrome requiring embolisation of the left ovarian vein. The target vessel consisted of two twisted branches, each 5–6 mm in diameter. The patient also had a known allergy to nickel. Considering the anatomy and allergy status, embolisation with polyurethane shape memory polymer vascular plugs was considered a good case strategy. The embolisation procedure was technically successful with the deployment of two shape memory polymer plugs into each of the two left ovarian vein branches. Follow-up magnetic resonance imaging at 4 months showed sustained occlusion of the treated vessels and the patient showed no signs of allergy to the implanted material.</p>
+                </sec>
+                <sec id="ASec3">
+                  <title>Conclusions</title>
+                  <p id="Par3">In conclusion, our case presented an opportunity to utilise a new embolic material and achieve a good outcome in a patient with an allergy that may have resulted in complications when using metallic implants.</p>
+                </sec>
+              </abstract>
+              <kwd-group xml:lang="en">
+                <title>Keywords</title>
+                <kwd>Shape memory polymer</kwd>
+                <kwd>Vascular plug</kwd>
+                <kwd>Peripheral embolisation</kwd>
+                <kwd>Pelvic congestion syndrome</kwd>
+                <kwd>Nickel allergy</kwd>
+              </kwd-group>
+              <custom-meta-group>
+                <custom-meta>
+                  <meta-name>publisher-imprint-name</meta-name>
+                  <meta-value>Springer</meta-value>
+                </custom-meta>
+                <custom-meta>
+                  <meta-name>volume-issue-count</meta-name>
+                  <meta-value>1</meta-value>
+                </custom-meta>
+                <custom-meta>
+                  <meta-name>issue-article-count</meta-name>
+                  <meta-value>25</meta-value>
+                </custom-meta>
+                <custom-meta>
+                  <meta-name>issue-toc-levels</meta-name>
+                  <meta-value>0</meta-value>
+                </custom-meta>
+                <custom-meta>
+                  <meta-name>issue-pricelist-year</meta-name>
+                  <meta-value>2021</meta-value>
+                </custom-meta>
+                <custom-meta>
+                  <meta-name>issue-copyright-holder</meta-name>
+                  <meta-value>The Author(s)</meta-value>
+                </custom-meta>
+                <custom-meta>
+                  <meta-name>issue-copyright-year</meta-name>
+                  <meta-value>2021</meta-value>
+                </custom-meta>
+                <custom-meta>
+                  <meta-name>article-contains-esm</meta-name>
+                  <meta-value>No</meta-value>
+                </custom-meta>
+                <custom-meta>
+                  <meta-name>article-numbering-style</meta-name>
+                  <meta-value>Unnumbered</meta-value>
+                </custom-meta>
+                <custom-meta>
+                  <meta-name>article-registration-date-year</meta-name>
+                  <meta-value>2021</meta-value>
+                </custom-meta>
+                <custom-meta>
+                  <meta-name>article-registration-date-month</meta-name>
+                  <meta-value>2</meta-value>
+                </custom-meta>
+                <custom-meta>
+                  <meta-name>article-registration-date-day</meta-name>
+                  <meta-value>17</meta-value>
+                </custom-meta>
+                <custom-meta>
+                  <meta-name>article-toc-levels</meta-name>
+                  <meta-value>0</meta-value>
+                </custom-meta>
+                <custom-meta>
+                  <meta-name>toc-levels</meta-name>
+                  <meta-value>0</meta-value>
+                </custom-meta>
+                <custom-meta>
+                  <meta-name>volume-type</meta-name>
+                  <meta-value>Regular</meta-value>
+                </custom-meta>
+                <custom-meta>
+                  <meta-name>journal-product</meta-name>
+                  <meta-value>ArchiveJournal</meta-value>
+                </custom-meta>
+                <custom-meta>
+                  <meta-name>numbering-style</meta-name>
+                  <meta-value>Unnumbered</meta-value>
+                </custom-meta>
+                <custom-meta>
+                  <meta-name>article-grants-type</meta-name>
+                  <meta-value>OpenChoice</meta-value>
+                </custom-meta>
+                <custom-meta>
+                  <meta-name>metadata-grant</meta-name>
+                  <meta-value>OpenAccess</meta-value>
+                </custom-meta>
+                <custom-meta>
+                  <meta-name>abstract-grant</meta-name>
+                  <meta-value>OpenAccess</meta-value>
+                </custom-meta>
+                <custom-meta>
+                  <meta-name>bodypdf-grant</meta-name>
+                  <meta-value>OpenAccess</meta-value>
+                </custom-meta>
+                <custom-meta>
+                  <meta-name>bodyhtml-grant</meta-name>
+                  <meta-value>OpenAccess</meta-value>
+                </custom-meta>
+                <custom-meta>
+                  <meta-name>bibliography-grant</meta-name>
+                  <meta-value>OpenAccess</meta-value>
+                </custom-meta>
+                <custom-meta>
+                  <meta-name>esm-grant</meta-name>
+                  <meta-value>OpenAccess</meta-value>
+                </custom-meta>
+                <custom-meta>
+                  <meta-name>online-first</meta-name>
+                  <meta-value>false</meta-value>
+                </custom-meta>
+                <custom-meta>
+                  <meta-name>pdf-file-reference</meta-name>
+                  <meta-value>BodyRef/PDF/42155_2021_Article_212.pdf</meta-value>
+                </custom-meta>
+                <custom-meta>
+                  <meta-name>pdf-type</meta-name>
+                  <meta-value>Typeset</meta-value>
+                </custom-meta>
+                <custom-meta>
+                  <meta-name>target-type</meta-name>
+                  <meta-value>OnlinePDF</meta-value>
+                </custom-meta>
+                <custom-meta>
+                  <meta-name>issue-type</meta-name>
+                  <meta-value>Regular</meta-value>
+                </custom-meta>
+                <custom-meta>
+                  <meta-name>article-type</meta-name>
+                  <meta-value>OriginalPaper</meta-value>
+                </custom-meta>
+                <custom-meta>
+                  <meta-name>journal-subject-primary</meta-name>
+                  <meta-value>Medicine &amp; Public Health</meta-value>
+                </custom-meta>
+                <custom-meta>
+                  <meta-name>journal-subject-secondary</meta-name>
+                  <meta-value>Medicine/Public Health, general</meta-value>
+                </custom-meta>
+                <custom-meta>
+                  <meta-name>journal-subject-secondary</meta-name>
+                  <meta-value>Imaging / Radiology</meta-value>
+                </custom-meta>
+                <custom-meta>
+                  <meta-name>journal-subject-secondary</meta-name>
+                  <meta-value>Interventional Radiology</meta-value>
+                </custom-meta>
+                <custom-meta>
+                  <meta-name>journal-subject-collection</meta-name>
+                  <meta-value>Medicine</meta-value>
+                </custom-meta>
+                <custom-meta>
+                  <meta-name>open-access</meta-name>
+                  <meta-value>true</meta-value>
+                </custom-meta>
+                <custom-meta>
+                  <meta-name>body</meta-name>
+                  <meta-value>absent</meta-value>
+                </custom-meta>
+              </custom-meta-group>
+            </article-meta>
+          </front>
+          <FileInfo>
+            <Batch>ftp_PUB_21-03-03_05-03-54.zip</Batch>
+            <Name>42155-2021-Article-212.pdf</Name>
+            <Format>PDF</Format>
+            <Version>1.3</Version>
+          </FileInfo>
+        </article>
+      </mets:xmlData>
+    </mets:mdWrap>
+  </mets:dmdSec>
+  <mets:amdSec>
+    <mets:techMD ID="TMDIP1614851463424-004">
+      <mets:mdWrap MDTYPE="PREMIS:OBJECT" MDTYPEVERSION="2.1">
+        <mets:xmlData>
+          <premis:object xsi:type="premis:representation">
+            <premis:objectIdentifier>
+              <premis:objectIdentifierType>local</premis:objectIdentifierType>
+              <premis:objectIdentifierValue>1614851463168</premis:objectIdentifierValue>
+            </premis:objectIdentifier>
+            <premis:preservationLevel>
+              <premis:preservationLevelValue>collectiebehoudsniveau 1</premis:preservationLevelValue>
+              <premis:preservationLevelDateAssigned>2021-03-04T10:03:11.240+01:00</premis:preservationLevelDateAssigned>
+            </premis:preservationLevel>
+          </premis:object>
+        </mets:xmlData>
+      </mets:mdWrap>
+    </mets:techMD>
+    <mets:techMD ID="TMDIP1614851463424-101">
+      <mets:mdWrap MDTYPE="PREMIS:OBJECT" MDTYPEVERSION="2.1">
+        <mets:xmlData>
+          <premis:object xsi:type="premis:file">
+            <premis:objectIdentifier>
+              <premis:objectIdentifierType>local</premis:objectIdentifierType>
+              <premis:objectIdentifierValue>1614851463680</premis:objectIdentifierValue>
+            </premis:objectIdentifier>
+            <premis:objectCharacteristics>
+              <premis:compositionLevel>0</premis:compositionLevel>
+              <premis:fixity>
+                <premis:messageDigestAlgorithm>SHA-512</premis:messageDigestAlgorithm>
+                <premis:messageDigest>e810e86dd3da23c43f5e0eea49e554cadb78006f7c9b3882d7af42594d7480bbd059cd7c4442e72e31ce9620dcc10ff0e84ae2ca605c02b1f5f6641b01fbb898</premis:messageDigest>
+                <premis:messageDigestOriginator>java.security.MessageDigest</premis:messageDigestOriginator>
+              </premis:fixity>
+              <premis:size>788204</premis:size>
+              <premis:format>
+                <premis:formatDesignation>
+                  <premis:formatName>Adobe Acrobat Document</premis:formatName>
+                  <premis:formatVersion>1.3</premis:formatVersion>
+                </premis:formatDesignation>
+                <premis:formatRegistry>
+                  <premis:formatRegistryName>DIAS</premis:formatRegistryName>
+                  <premis:formatRegistryKey>2</premis:formatRegistryKey>
+                </premis:formatRegistry>
+                <premis:formatNote>DIAS tentative identification</premis:formatNote>
+              </premis:format>
+            </premis:objectCharacteristics>
+            <premis:originalName>42155-2021-Article-212.pdf</premis:originalName>
+          </premis:object>
+        </mets:xmlData>
+      </mets:mdWrap>
+    </mets:techMD>
+    <mets:techMD ID="TMDIP1614851463424-102">
+      <mets:mdWrap MDTYPE="PREMIS:OBJECT" MDTYPEVERSION="2.1">
+        <mets:xmlData>
+          <premis:object xsi:type="premis:file">
+            <premis:objectIdentifier>
+              <premis:objectIdentifierType>local</premis:objectIdentifierType>
+              <premis:objectIdentifierValue>1614851463681</premis:objectIdentifierValue>
+            </premis:objectIdentifier>
+            <premis:objectCharacteristics>
+              <premis:compositionLevel>0</premis:compositionLevel>
+              <premis:fixity>
+                <premis:messageDigestAlgorithm>SHA-512</premis:messageDigestAlgorithm>
+                <premis:messageDigest>7730d0be7c7fb6c4c141a6cd11a6f8ab75c93cd6b18c317c20188c82ea46ce424edfcab6d3b3a4140b029c33bed44065f6a22fa5546d9988388712ffd0697773</premis:messageDigest>
+                <premis:messageDigestOriginator>java.security.MessageDigest</premis:messageDigestOriginator>
+              </premis:fixity>
+              <premis:size>10322</premis:size>
+              <premis:format>
+                <premis:formatDesignation>
+                  <premis:formatName>not checked</premis:formatName>
+                </premis:formatDesignation>
+              </premis:format>
+            </premis:objectCharacteristics>
+            <premis:originalName>42155-2021-Article-212-nlm-orig.xml</premis:originalName>
+          </premis:object>
+        </mets:xmlData>
+      </mets:mdWrap>
+    </mets:techMD>
+    <mets:techMD ID="TMDIP1614851463424-103">
+      <mets:mdWrap MDTYPE="PREMIS:OBJECT" MDTYPEVERSION="2.1">
+        <mets:xmlData>
+          <premis:object xsi:type="premis:file">
+            <premis:objectIdentifier>
+              <premis:objectIdentifierType>local</premis:objectIdentifierType>
+              <premis:objectIdentifierValue>1614851463682</premis:objectIdentifierValue>
+            </premis:objectIdentifier>
+            <premis:objectCharacteristics>
+              <premis:compositionLevel>0</premis:compositionLevel>
+              <premis:fixity>
+                <premis:messageDigestAlgorithm>SHA-512</premis:messageDigestAlgorithm>
+                <premis:messageDigest>d2e26099820f842be50f626e90afd857487bc946c74f981621726bb42994269fd75e8697a493bcda672f40b7b541ea952279286fa2c47a9dc8b2793f72787685</premis:messageDigest>
+                <premis:messageDigestOriginator>java.security.MessageDigest</premis:messageDigestOriginator>
+              </premis:fixity>
+              <premis:size>10470</premis:size>
+              <premis:format>
+                <premis:formatDesignation>
+                  <premis:formatName>not checked</premis:formatName>
+                </premis:formatDesignation>
+              </premis:format>
+            </premis:objectCharacteristics>
+            <premis:originalName>metadata.xml</premis:originalName>
+          </premis:object>
+        </mets:xmlData>
+      </mets:mdWrap>
+    </mets:techMD>
+    <mets:techMD ID="TMDIP1614851463424-104">
+      <mets:mdWrap MDTYPE="OTHER" MDTYPEVERSION="1.0" OTHERMDTYPE="KBMD-STORAGEMETADATA">
+        <mets:xmlData>
+          <kbmd-storage:storage xmlns:kbmd-storage="http://schemas.kb.nl/kbmd-storage/v1">
+            <kbmd-storage:fileGrp>
+              <kbmd-storage:file ID="IP1614851463424" storageID="IP1614851463424-IP1614852137338" type="AIP Manifest"/>
+              <kbmd-storage:file ID="CO1614851463680" checksum="e810e86dd3da23c43f5e0eea49e554cadb78006f7c9b3882d7af42594d7480bbd059cd7c4442e72e31ce9620dcc10ff0e84ae2ca605c02b1f5f6641b01fbb898" checksumAlgorithm="SHA-512" fileSize="788204" originalFilename="OriginalEpublication/42155-2021-Article-212.pdf" storageID="IP1614851463424-CF1614852137339" type="contentObject"/>
+              <kbmd-storage:file ID="CO1614851463681" checksum="7730d0be7c7fb6c4c141a6cd11a6f8ab75c93cd6b18c317c20188c82ea46ce424edfcab6d3b3a4140b029c33bed44065f6a22fa5546d9988388712ffd0697773" checksumAlgorithm="SHA-512" fileSize="10322" originalFilename="Original metadata/42155-2021-Article-212-nlm-orig.xml" storageID="IP1614851463424-CF1614852137340" type="contentObject"/>
+              <kbmd-storage:file ID="CO1614851463682" checksum="d2e26099820f842be50f626e90afd857487bc946c74f981621726bb42994269fd75e8697a493bcda672f40b7b541ea952279286fa2c47a9dc8b2793f72787685" checksumAlgorithm="SHA-512" fileSize="10470" originalFilename="Original metadata/metadata.xml" storageID="IP1614851463424-CF1614852137341" type="contentObject"/>
+            </kbmd-storage:fileGrp>
+          </kbmd-storage:storage>
+        </mets:xmlData>
+      </mets:mdWrap>
+    </mets:techMD>
+    <mets:rightsMD ADMID="RMDIP1614851463424-006" ID="RMDIP1614851463424-005">
+      <mets:mdWrap MDTYPE="PREMIS:RIGHTS" MDTYPEVERSION="2.1">
+        <mets:xmlData>
+          <premis:rights>
+            <premis:rightsExtension>
+              <kbmd:availability>free</kbmd:availability>
+              <kbmd:owner-id>00002</kbmd:owner-id>
+              <kbmd:copyright>
+                <kbmd:copyrightHolder>© The Author(s) 2021</kbmd:copyrightHolder>
+                <kbmd:copyrightYear>2021</kbmd:copyrightYear>
+              </kbmd:copyright>
+              <kbmd:license>
+                <kbmd:licenseIdentifier type="URI">http://creativecommons.org/licenses/by/4.0/</kbmd:licenseIdentifier>
+                <kbmd:licenseStatement>Open AccessThis article is licensed under a Creative Commons Attribution 4.0 International License, which permits use, sharing, adaptation, distribution and reproduction in any medium or format, as long as you give appropriate credit to the original author(s) and the source, provide a link to the Creative Commons licence, and indicate if changes were made. The images or other third party material in this article are included in the article&apos;s Creative Commons licence, unless indicated otherwise in a credit line to the material. If material is not included in the article&apos;s Creative Commons licence and your intended use is not permitted by statutory regulation or exceeds the permitted use, you will need to obtain permission directly from the copyright holder. To view a copy of this licence, visit http://creativecommons.org/licenses/by/4.0/.</kbmd:licenseStatement>
+              </kbmd:license>
+              <premis:linkingAgentIdentifier>
+                <premis:linkingAgentIdentifierType>KB-agent-id</premis:linkingAgentIdentifierType>
+                <premis:linkingAgentIdentifierValue>2</premis:linkingAgentIdentifierValue>
+                <premis:linkingAgentRole>supplier</premis:linkingAgentRole>
+              </premis:linkingAgentIdentifier>
+            </premis:rightsExtension>
+          </premis:rights>
+        </mets:xmlData>
+      </mets:mdWrap>
+    </mets:rightsMD>
+    <mets:rightsMD ADMID="RMDIP1614851463424-005" ID="RMDIP1614851463424-006">
+      <mets:mdWrap MDTYPE="PREMIS:AGENT" MDTYPEVERSION="2.1">
+        <mets:xmlData>
+          <premis:agent>
+            <premis:agentIdentifier>
+              <premis:agentIdentifierType>KB-owner-id</premis:agentIdentifierType>
+              <premis:agentIdentifierValue>00002</premis:agentIdentifierValue>
+            </premis:agentIdentifier>
+            <premis:agentIdentifier>
+              <premis:agentIdentifierType>KB-agent-id</premis:agentIdentifierType>
+              <premis:agentIdentifierValue>2</premis:agentIdentifierValue>
+            </premis:agentIdentifier>
+            <premis:agentName>Springer</premis:agentName>
+            <premis:agentType>organization</premis:agentType>
+            <premis:agentNote>Springer International Publishing</premis:agentNote>
+          </premis:agent>
+        </mets:xmlData>
+      </mets:mdWrap>
+    </mets:rightsMD>
+    <mets:digiprovMD ID="DPMDIP1614851463424-007">
+      <mets:mdWrap MDTYPE="OTHER" OTHERMDTYPE="DIAS-SIPTOC">
+        <mets:xmlData>
+          <!--<!DOCTYPE SIP   SYSTEM "http://dm-dtd-p/dtd/KB.DNEP.SIP.dtd">-->
+          <SIP>
+            <Asset>
+              <Epublication>
+                <OriginalEpublication>
+                  <DirTree rootName="OriginalEpublication">
+                    <File name="42155-2021-Article-212.pdf" size="788204" type="2"/>
+                  </DirTree>
+                  <DirTree rootName="Original metadata">
+                    <File name="42155-2021-Article-212-nlm-orig.xml" size="10322" type=""/>
+                    <File name="metadata.xml" size="10470" type=""/>
+                  </DirTree>
+                </OriginalEpublication>
+              </Epublication>
+            </Asset>
+            <MetadataBlock>
+              <Metadata NBN="1614851463168" dateOfCreation="04-03-2021" ingestUserID="btchbldr" libraryFunctionName="Depot" originalNBN="1614851463168" refPlatformNBN="" setupFileName="" sourceDescription="sprin_42155-2021-article-212-nlm-210304-0712 GENLDR10" sourceType="Batch" starterFileName="42155-2021-Article-212.pdf" supplier="Springer International Publishing"/>
+            </MetadataBlock>
+          </SIP>
+        </mets:xmlData>
+      </mets:mdWrap>
+    </mets:digiprovMD>
+    <mets:digiprovMD ID="DPMDIP1614851463424-008">
+      <mets:mdWrap MDTYPE="OTHER" MDTYPEVERSION="1.1" OTHERMDTYPE="KBMD-EVENTS">
+        <mets:xmlData>
+          <kbmd-events:event xmlns:kbmd-events="http://schemas.kb.nl/kbmd-events/v1">
+            <kbmd-events:eventType>ingestion</kbmd-events:eventType>
+            <kbmd-events:eventDateTime>2021-03-04T10:03:11.240+01:00</kbmd-events:eventDateTime>
+            <kbmd-events:agent>
+              <kbmd-events:agentName>Connector</kbmd-events:agentName>
+              <kbmd-events:agentType>software</kbmd-events:agentType>
+              <kbmd-events:agentNote>Digitaal Magazijn release 1.5</kbmd-events:agentNote>
+            </kbmd-events:agent>
+            <kbmd-events:agent>
+              <kbmd-events:agentName>ejournals_sprin_2</kbmd-events:agentName>
+              <kbmd-events:agentType>streamprofile</kbmd-events:agentType>
+            </kbmd-events:agent>
+          </kbmd-events:event>
+        </mets:xmlData>
+      </mets:mdWrap>
+    </mets:digiprovMD>
+    <mets:digiprovMD ID="DPMDIP1614851463424-9">
+      <mets:mdWrap MDTYPE="OTHER" MDTYPEVERSION="1.1" OTHERMDTYPE="KBMD-EVENTS">
+        <mets:xmlData>
+          <kbmd-events:event xmlns:kbmd-events="http://schemas.kb.nl/kbmd-events/v1">
+            <kbmd-events:eventType>ingestion</kbmd-events:eventType>
+            <kbmd-events:eventDateTime>2021-03-04T11:02:36.977+01:00</kbmd-events:eventDateTime>
+            <kbmd-events:agent>
+              <kbmd-events:agentName>Generic Ingest</kbmd-events:agentName>
+              <kbmd-events:agentType>software</kbmd-events:agentType>
+              <kbmd-events:agentNote>Digitaal Magazijn release 1.5</kbmd-events:agentNote>
+            </kbmd-events:agent>
+          </kbmd-events:event>
+        </mets:xmlData>
+      </mets:mdWrap>
+    </mets:digiprovMD>
+  </mets:amdSec>
+  <mets:fileSec>
+    <mets:fileGrp USE="main files">
+      <mets:file ADMID="TMDIP1614851463424-101" ID="CO1614851463680">
+        <mets:FLocat LOCTYPE="OTHER" OTHERLOCTYPE="STORAGE-ID" xlink:href="IP1614851463424-CF1614852137339"/>
+      </mets:file>
+    </mets:fileGrp>
+    <mets:fileGrp USE="metadata files">
+      <mets:file ADMID="TMDIP1614851463424-102" ID="CO1614851463681">
+        <mets:FLocat LOCTYPE="OTHER" OTHERLOCTYPE="STORAGE-ID" xlink:href="IP1614851463424-CF1614852137340"/>
+      </mets:file>
+      <mets:file ADMID="TMDIP1614851463424-103" ID="CO1614851463682">
+        <mets:FLocat LOCTYPE="OTHER" OTHERLOCTYPE="STORAGE-ID" xlink:href="IP1614851463424-CF1614852137341"/>
+      </mets:file>
+    </mets:fileGrp>
+  </mets:fileSec>
+  <mets:structMap TYPE="logical">
+    <mets:div ADMID="DPMDIP1614851463424-007 TMDIP1614851463424-004 DPMDIP1614851463424-008 DPMDIP1614851463424-9 TMDIP1614851463424-104" TYPE="informationPackage">
+      <mets:div ADMID="RMDIP1614851463424-005" DMDID="DMDIP1614851463424-001 DMDIP1614851463424-002 DMDIP1614851463424-003" TYPE="publication">
+        <mets:fptr FILEID="CO1614851463680"/>
+      </mets:div>
+      <mets:div TYPE="original metadata">
+        <mets:fptr FILEID="CO1614851463681"/>
+        <mets:fptr FILEID="CO1614851463682"/>
+      </mets:div>
+    </mets:div>
+  </mets:structMap>
+</mets:mets>

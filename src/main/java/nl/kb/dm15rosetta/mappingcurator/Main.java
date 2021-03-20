@@ -40,6 +40,7 @@ public class Main extends Application<Config> {
             hdl.update("INSERT INTO fields (name) VALUES ('maintitle')");
             hdl.update("INSERT INTO fields (name) VALUES ('subtitle')");
             hdl.update("INSERT INTO fields (name) VALUES ('author')");
+            hdl.update("INSERT INTO fields (name) VALUES ('metadata-grant')");
         }
 
         final MappingDao mappingDao = db.onDemand(MappingDao.class);
