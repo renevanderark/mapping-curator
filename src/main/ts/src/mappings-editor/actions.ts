@@ -19,7 +19,41 @@ export default function(dispatch : Dispatch<MappingsEditorAction>, getState : ()
             });
         });
 
+    const fetchMappings = () => 
+        xhr({
+            method: "GET",
+            url: `/mappings/mappings`,
+            headers: {
+                "Accept": "application/json"
+            }
+        }, (err, resp, body) => {
+            dispatch({
+                type: MappingsEditorActionTypes.RECEIVE_MAPPINGS,
+                payload: JSON.parse(body)
+            });
+        });
+    
+    const addMapping = (fieldId : number) =>
+        xhr({
+            method: "POST",
+            url: `/mappings/mappings`,
+            headers: {
+                "Accept": "application/json",
+                "Content-type": "application/json"
+            },
+            body: JSON.stringify({
+                fieldId: fieldId
+            })
+        }, (err, resp, body) => {
+
+            if (!err && resp.statusCode >= 200 && resp.statusCode < 300) {
+                console.log(body);
+                fetchMappings();
+            }
+        });
     return {
-        fetchTargetFields: fetchTargetFields
+        fetchTargetFields: fetchTargetFields,
+        fetchMappings: fetchMappings,
+        addMapping: addMapping
     }
 }

@@ -15,6 +15,11 @@ export default function(state :  MappingsEditorState, action : MappingsEditorAct
                 ...state,
                 targetFields: action.payload
             }
+        case MappingsEditorActionTypes.RECEIVE_MAPPINGS:
+            return {
+                ...state,
+                fieldMappings: action.payload
+            }
         default:
             return state;
     }

@@ -1,16 +1,18 @@
 import { Action } from "redux";
 
 export enum MappingsEditorActionTypes {
-    RECEIVE_TARGET_FIELDS = "RECEIVE_TARGET_FIELDS"
+    RECEIVE_TARGET_FIELDS = "RECEIVE_TARGET_FIELDS",
+    RECEIVE_MAPPINGS = "RECEIVE_MAPPINGS"
 }
 
 export interface MappingsEditorAction extends Action<MappingsEditorActionTypes> {
-    payload : Array<TargetField> | FieldMapping
+    payload : Array<FieldMapping> | Array<TargetField>
 }
 
 interface FieldMapping {
-    targetFieldId : number
-    xpathValue : string
+    id : number
+    fieldId : number
+    xpath : string
 }
 
 interface TargetField {
