@@ -43,10 +43,15 @@ public class XmlSampleRunner {
             try {
                 final XPathExpression expression = xPath.compile(xpath);
                 final NodeList nodes = (NodeList) expression.evaluate(sampleDoc, XPathConstants.NODESET);
-                final ArrayList<String> resultList = new ArrayList<>();
-                result.put(mappingDao.getTargetField(xpathMapping.getFieldId()).getName(), resultList);
+
+                final String fieldName = mappingDao.getTargetField(xpathMapping.getFieldId()).getName();
+                if (!result.containsKey(fieldName)) {
+                    final ArrayList<String> resultList = new ArrayList<>();
+                    result.put(fieldName, resultList);
+                }
+
                 for (int i = 0; i < nodes.getLength(); i++) {
-                    resultList.add(nodes.item(i).getTextContent());
+                    result.get(fieldName).add(nodes.item(i).getTextContent());
                 }
             } catch (Exception e) {
                 e.printStackTrace();

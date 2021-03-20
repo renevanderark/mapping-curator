@@ -2,7 +2,8 @@ import { MappingsEditorAction, MappingsEditorActionTypes, MappingsEditorState } 
 
 const initialState : MappingsEditorState = {
     fieldMappings: [],
-    targetFields: []
+    targetFields: [],
+    evalResults: {}
 }
 
 export default function(state :  MappingsEditorState, action : MappingsEditorAction) {
@@ -19,6 +20,11 @@ export default function(state :  MappingsEditorState, action : MappingsEditorAct
             return {
                 ...state,
                 fieldMappings: action.payload
+            }
+        case MappingsEditorActionTypes.RECEIVE_EVAL_RESULTS:
+            return {
+                ...state,
+                evalResults: action.payload
             }
         default:
             return state;

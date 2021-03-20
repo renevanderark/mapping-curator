@@ -104,7 +104,10 @@ export default function(dispatch : Dispatch<MappingsEditorAction>, getState : ()
 
             if (!err && resp.statusCode >= 200 && resp.statusCode < 300) {
                 console.log(body);
-                fetchMappings();
+                dispatch({
+                    type: MappingsEditorActionTypes.RECEIVE_EVAL_RESULTS,
+                    payload: JSON.parse(body)
+                });
             }
         });
 
